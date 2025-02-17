@@ -1,0 +1,446 @@
+.sellers {
+    margin-top: 40px;
+    /* Centering the container to the right */
+    margin-left: auto;
+    margin-right: 0;
+    /* Ensures it aligns to the right side */
+    font-size: 16px;
+    /* Adjusted for better responsiveness */
+    font-family: 'Roboto Slab', serif;
+    color: #660825;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    /* Aligns the content to the right */
+}
+
+.sellers .container {
+    padding: 0 15px;
+}
+
+.sellers .row {
+    display: flex;
+    justify-content: flex-start;
+    /* Aligns left and right sections */
+    align-items: flex-start;
+    width: 100%;
+}
+
+.sellers ul {
+    padding: 0;
+    margin: 0;
+}
+
+.sellers a {
+    color: #660825;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1rem;
+}
+
+.sellers a:hover {
+    color: #e87599;
+}
+
+.sellers .icons {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+
+}
+
+.sellers .icons i {
+    color: #ff0000;
+    font-size: 24px;
+}
+
+@media (max-width: 768px) {
+    .sellers .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sellers .col-md-6 {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    .sellers .icons {
+        justify-content: center;
+        /* Center icons on smaller screens */
+    }
+
+    .sellers .icons i {
+        font-size: 28px;
+    }
+}
+
+.container {
+    max-width: 1200px; /* Adjust based on your design */
+}
+
+.content {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for the content section */
+}
+
+.content-title {
+    font-size: 1.5rem;
+    color: #660825;
+    font-weight: 600;
+}
+
+.content-text {
+    font-size: 1rem;
+    color: #555;
+}
+
+.payment-options {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for payment section */
+}
+
+.payment-title {
+    font-size: 1.5rem;
+    color: #660825;
+    font-weight: 600;
+}
+
+.payment-icons {
+    display: flex;
+    gap: 20px;
+    justify-content: center; /* Centers the icons in the right section */
+}
+
+.payment-icon {
+    width: 50px; /* Size of the payment icons */
+    height: auto;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .col-md-8, .col-md-4 {
+        flex: 0 0 100%; /* Stack the content and payment options on smaller screens */
+    }
+
+    .payment-icons {
+        justify-content: space-around; /* Adjust for smaller screen sizes */
+    }
+}
+.footer {
+    background-color: #ffffff; /* Dark background color */
+    color: #000000; /* Light text color */
+    padding: 20px 0; /* Padding for spacing */
+    bottom: 0;
+    width: 100%; /* Full width */
+    text-align: center; /* Center align text */
+    font-family: 'Roboto', sans-serif; /* Choose a clean font */
+    font-size: 1rem; /* Adjust text size */
+}
+
+.footer p {
+    margin: 0;
+}
+.footer {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 38px 0;
+  }
+  .content-wrapper {
+    display: flex;
+    width: 759px;
+    max-width: 100%;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .quick-links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: rgba(102, 8, 37, 0.75);
+    letter-spacing: 0.63px;
+    font: 400 12px Inter, sans-serif;
+  }
+  .section-title {
+    color: rgb(102, 8, 37);
+    font-size: 19px;
+    line-height: 1.3;
+    align-self: stretch;
+  }
+  .nav-link {
+    color: inherit;
+    text-decoration: none;
+    line-height: 2;
+    margin-top: 25px;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .contact-section {
+    align-self: flex-start;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .contact-email {
+    color: rgba(102, 8, 37, 0.75);
+    letter-spacing: 0.63px;
+    align-self: stretch;
+    margin-top: 38px;
+    font: 400 13px/2 Inter, sans-serif;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  .social-icons {
+    display: flex;
+    margin-top: 8px;
+    gap: 10px;
+  }
+  .social-icon {
+    width: 43px;
+    height: 43px;
+    object-fit: contain;
+  }
+  .footer-logo {
+    width: 129px;
+    height: auto;
+    margin-top: 43px;
+    max-width: 100%;
+  }
+  .bottom-section {
+    border-top: 1px solid rgba(102, 8, 37, 0.08);
+    width: 100%;
+    margin-top: 53px;
+    padding: 63px 80px 5px;
+  }
+  .bottom-content {
+    max-width: 1160px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .region-title {
+    color: rgba(102, 8, 37, 0.75);
+    font-size: 11px;
+    line-height: 2;
+    font-weight: 400;
+    letter-spacing: 0.42px;
+  }
+  .region-selector {
+    display: flex;
+    margin-top: 11px;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .region-button {
+    background-color: #fff;
+    border: 1px solid rgba(102, 8, 37, 0.55);
+    padding: 14px 19px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &:focus {
+      outline: 2px solid rgb(102, 8, 37);
+    }
+  }
+  .button-content {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+  }
+  .region-text {
+    color: rgb(102, 8, 37);
+    font-size: 12px;
+    line-height: 2;
+  }
+  .dropdown-icon {
+    width: 10px;
+    height: auto;
+  }
+  .payment-methods {
+    width: 436px;
+    max-width: 100%;
+    height: auto;
+  }
+  .copyright {
+    display: flex;
+    margin-top: 47px;
+    gap: 5px;
+    text-align: right;
+    letter-spacing: 0.74px;
+    color: rgba(102, 8, 37, 0.75);
+  }
+  .copyright-text {
+    display: flex;
+    gap: 1px;
+    font-size: 10px;
+    line-height: 2;
+  }
+  .brand-name {
+    line-height: 2;
+  }
+  .powered-by {
+    font-size: 9px;
+    line-height: 2;
+  }
+  @media (max-width: 991px) {
+    .bottom-section {
+      max-width: 100%;
+      margin-top: 40px;
+      padding: 0 20px;
+    }
+    .footer-logo {
+      margin-top: 40px;
+    }
+    .copyright {
+      margin-top: 40px;
+    }
+    .payment-methods {
+      max-width: 100%;
+    }
+  }
+
+
+
+
+  ul {
+    list-style: none;
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+}
+
+.example-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row; /* Change from column to row for horizontal layout */
+    column-gap: 1rem; /* Space between icons */
+}
+
+.example-2 .icon-content {
+    position: relative;
+}
+
+.example-2 .icon-content .tooltip {
+    position: absolute;
+    bottom: 125%; /* Position tooltip above the icon */
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    visibility: hidden;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.example-2 .icon-content:hover .tooltip {
+    opacity: 1;
+    visibility: visible;
+}
+
+.example-2 .icon-content a {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: #4d4d4d;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover {
+    box-shadow: 3px 2px 45px 0px rgb(0 0 0 / 12%);
+}
+
+.example-2 .icon-content a svg {
+    position: relative;
+    z-index: 1;
+    width: 30px;
+    height: 30px;
+}
+
+.example-2 .icon-content a:hover {
+    color: white;
+}
+
+.example-2 .icon-content a .filled {
+    position: absolute;
+    top: auto;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #7b1919;
+    transition: all 0.3s ease-in-out;
+}
+
+.example-2 .icon-content a:hover .filled {
+    height: 100%;
+}
+
+.example-2 .icon-content a[data-social="linkedin"] .filled,
+.example-2 .icon-content a[data-social="linkedin"] ~ .tooltip {
+    background-color: #0274b3;
+}
+
+.example-2 .icon-content a[data-social="github"] .filled,
+.example-2 .icon-content a[data-social="github"] ~ .tooltip {
+    background-color: #24262a;
+}
+
+.example-2 .icon-content a[data-social="gmail"] .filled,
+.example-2 .icon-content a[data-social="gmail"] ~ .tooltip {
+    background: linear-gradient(
+        45deg,
+        #405de6,
+        #5b51db,
+        #b33ab4,
+        #c135b4,
+        #e1306c,
+        #fd1f1f
+    );
+}
+
+.example-2 .icon-content a[data-social="whatsapp"] .filled,
+.example-2 .icon-content a[data-social="whatsapp"] ~ .tooltip {
+    background-color: #09bc39;
+}
+.example-2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #000000;
+    animation: bounceIn 2s ease-out;
+}
+
+@keyframes bounceIn {
+    0% {
+        opacity: 0;
+        transform: scale(0.3);
+    }
+    50% {
+        opacity: 1;
+        transform: scale(1.05);
+    }
+    70% {
+        transform: scale(0.9);
+    }
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
